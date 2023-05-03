@@ -1,0 +1,21 @@
+https://www.theodinproject.com/lessons/foundations-fundamentals-part-3
+
+Knowledge Check: Fundamentals Part 3
+
+
+WHAT ARE FUNCTIONS USEFUL FOR?
+
+
+HOW DO YOU INVOKE A FUNCTION?
+
+
+WHAT ARE ANONYMOUS FUNCTIONS?
+
+
+WHAT IS FUNCTION SCOPE?
+
+
+WHAT ARE RETURN VALUES?
+
+
+WHAT ARE ARROW FUNCTIONS?
