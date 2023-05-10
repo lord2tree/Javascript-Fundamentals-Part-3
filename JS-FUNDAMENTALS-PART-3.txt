@@ -4,18 +4,32 @@ Knowledge Check: Fundamentals Part 3
 
 
 WHAT ARE FUNCTIONS USEFUL FOR?
-
+Functions are reusable blocks of code that you can call whenever you need a task done rather then typing the code over and over on multiple lines you can create a function once and call it whenever its needed as many times as you like. Lastly  you can also add that functions can improve the organization and readability of code.
 
 HOW DO YOU INVOKE A FUNCTION?
+In order to invoke a function you must type the function name followed by parentheses and any required arguments.
 
 
 WHAT ARE ANONYMOUS FUNCTIONS?
+An anonymous function is one without a name, below I have given some examples:
+
+//below we have an anonymous function in a function expression assigned to a variable: 
+let x = function () {something happens;};
+
+// below we have an anonymous arrow function in a function expression assigned to a variable:
+let y = () => something happens;
+
+// below we have an anonymous arrow function:
+() => something happens;
 
 
 WHAT IS FUNCTION SCOPE?
+Function scope is the code block or area in which a function has access to variables and other functions, variables and functions declared in a function are only accessible in that function.
 
 
 WHAT ARE RETURN VALUES?
+Return values are values that a function returns after it is called.
 
 
 WHAT ARE ARROW FUNCTIONS?
+Arrow functions are a short and concise way to right functions anonymously.

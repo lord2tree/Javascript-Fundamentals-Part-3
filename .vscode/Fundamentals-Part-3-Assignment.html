@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Fundamentals-Part-3-Assignment</title>
+  </head>
+  <body>
+    <p>
+      Write a function called add7 that takes one number and returns that number
+      + 7.
+    </p>
+    <script name="add7">
+      //  Using the function keyword to declare the function:
+      function add7(number) {
+        return number + 7;
+      }
+
+      //  Using a function expression assigned to a variable:
+      let add7a = function (number) {
+        return number + 7;
+      };
+
+      //  Using an arrow function in a function expression assigned to a variable:
+      let add7b = (number) => number + 7;
+
+      //  BONUS - Using anonymous arrow function:
+      (number) => number + 7;
+    </script>
+
+    <p>
+      Write a function called multiply that takes 2 numbers and returns their
+      product.
+    </p>
+    <script name="multiply">
+      //  Using the function keyword to declare the function:
+      function multiply(num1, num2) {
+        return num1 * num2;
+      }
+      // Using a function expression assigned to a variable:
+      let multiply2 = function (num1, num2) {
+        return num1 * num2;
+      };
+      // Using an arrow function in a function epression assigned to a variable:
+      let multiply3 = (num1, num2) => {
+        return num1 * num2;
+      };
+      //  BONUS - Using anonymous arrow function:
+      (num1, num2) => num1 * num2;
+    </script>
+
+    <p>
+      Write a function called capitalize that takes a string and returns that
+      string with only the first letter capitalized. Make sure that it can take
+      strings that are lowercase, UPPERCASE or BoTh.
+    </p>
+    <script name="capitalize">
+      function capitalize(words) {
+        let wordsArray = words.split("");
+        let newWordArray = [];
+        newWordArray[0] = wordsArray[0].toUpperCase();
+        for (i = 1; i < wordsArray.length; i++) {
+          newWordArray[i] = wordsArray[i];
+        }
+        return (capString = newWordArray.join(""));
+      }
+    </script>
+
+    <p>
+      Write a function called lastLetter that takes a string and returns the
+      very last letter of that string: lastLetter("abcd") should return "d"
+    </p>
+    <script name="lastletter">
+      function lastLetter(words2) {
+        let wordsArray2 = words2.split("");
+        let lastWord = wordsArray2[wordsArray2.length - 1];
+        return lastWord;
+      }
+    </script>
+  </body>
+</html>
